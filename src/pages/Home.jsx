@@ -1,9 +1,16 @@
-import React from 'react'
+import Chat from "../components/Chat";
+import Sidebar from "../components/Sidebar";
+import { HomeContainer, HomeWrapper } from "./styles";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <HomeContainer>
+      <HomeWrapper>
+        <Sidebar />
+        <Chat />
+      </HomeWrapper>
+    </HomeContainer>
+  );
+};
 
-export default Home
+export default Home;

@@ -32,10 +32,10 @@ export const StyledInput = styled.input`
 export const Logo = styled.span`
   color: #862ce5;
   font-size: 24px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 `;
 export const Title = styled.span`
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #474747;
 `;
 
@@ -52,10 +52,28 @@ export const SamllText = styled.p`
   font-size: 12px;
   margin-top: 10px;
   color: #474747;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 `;
 
 export const StyledImg = styled.img`
   height: 180px;
+`;
+
+//Home styles
+
+export const HomeContainer = styled.div`
+  background-color: #deaafa;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const HomeWrapper = styled.div`
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 65%;
+  height: 80%;
+  display: flex;
 `;
